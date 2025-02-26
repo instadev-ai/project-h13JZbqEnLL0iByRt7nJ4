@@ -19,7 +19,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { RevenueChart, UserGrowthChart, AcquisitionChart } from "@/components/dashboard/Charts";
 
 const Index = () => {
-  const [activeTab, setActiveTabX] = useState("overview");
+  const [activeTab, setActiveTabY] = useState("overview");
 
   return (
     <div className="flex min-h-screen bg-gray-50">
