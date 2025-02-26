@@ -11,7 +11,8 @@ import {
   Settings,
   HelpCircle,
   Bell,
-  User
+  User,
+  Bolt
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -37,7 +38,7 @@ const Index = () => {
             Customers
           </Button>
           <Button variant="ghost" className="w-full justify-start gap-2">
-            <CreditCard className="h-5 w-5" />
+            <Bolt className="h-5 w-5" />
             Billing
           </Button>
           <Button variant="ghost" className="w-full justify-start gap-2">
