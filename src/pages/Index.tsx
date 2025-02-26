@@ -197,18 +197,6 @@ const Index = () => {
               </Card>
             </TabsContent>
 
-            <TabsContent value="analytics" className="space-y-6">
-              <Card>
-                <CardHeader>
-                  <CardTitle>User Growth</CardTitle>
-                  <CardDescription>Monthly user growth over time</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <UserGrowthChart />
-                </CardContent>
-              </Card>
-            </TabsContent>
-
             <TabsContent value="reports" className="space-y-6">
               <Card>
                 <CardHeader>
