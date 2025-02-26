@@ -42,7 +42,7 @@ const Index = () => {
           </Button>
           <Button variant="ghost" className="w-full justify-start gap-2">
             <Activity className="h-5 w-5" />
-            Analytics
+            Forelytics
           </Button>
           <Button variant="ghost" className="w-full justify-start gap-2">
             <Settings className="h-5 w-5" />
