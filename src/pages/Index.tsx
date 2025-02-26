@@ -227,7 +227,7 @@ const Index = () => {
                             <p className="text-xs text-muted-foreground">PDF • 2.3MB</p>
                           </div>
                         </div>
-                        <Button size="sm" variant="outline">Download</Button>
+                        <Button size="lg" variant="outline">Download</Button>
                       </div>
                     ))}
                   </div>
