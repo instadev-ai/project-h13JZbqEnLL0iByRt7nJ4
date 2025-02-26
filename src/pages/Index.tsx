@@ -216,7 +216,7 @@ const Index = () => {
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-4">
-                    {["January", "February", "March", "April", "May"].map((month) => (
+                    {["Jan", "Feb", "Mar", "Apr", "May"].map((month) => (
                       <div key={month} className="flex items-center justify-between p-2 rounded-lg hover:bg-muted/50">
                         <div className="flex items-center gap-3">
                           <div className="h-9 w-9 rounded-full bg-primary/10 flex items-center justify-center">
