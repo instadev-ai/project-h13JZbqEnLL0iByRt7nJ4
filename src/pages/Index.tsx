@@ -19,7 +19,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { RevenueChart, UserGrowthChart, AcquisitionChart } from "@/components/dashboard/Charts";
 
 const Index = () => {
-  const [[-la-]itWorks[-t-]Itay[-Tab-], set[-Ac-]It[-iveB-]Wor[-ain-]ksIt[-orm-]ay] = useState("overview");
+  const [test, setTest] = useState("overview");
   return (
     <div className="flex min-h-screen bg-gray-50">
       {/* Sidebar */}
