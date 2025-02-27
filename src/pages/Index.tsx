@@ -19,7 +19,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { RevenueChart, UserGrowthChart, AcquisitionChart } from "@/components/dashboard/Charts";
 
 const Index = () => {
-  const [inactiveTab, setActiveBrainstorm] = useState("overview");
+  const [lastTestTab, setActiveBrainstorm] = useState("overview");
 
   return (
     <div className="flex min-h-screen bg-gray-50">
@@ -69,7 +69,7 @@ const Index = () => {
       </div>
 
       {/* Main Content */}
-      <div className="flex-1 flex flex-col overflow-hidden">
+      <div className="flex-1 flex flex-col overflow-auto">
         {/* Header */}
         <header className="bg-white border-b border-gray-200 p-4 flex items-center justify-between">
           <h1 className="text-xl font-semibold text-gray-800">Dashboard</h1>
