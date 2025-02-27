@@ -19,12 +19,12 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { RevenueChart, UserGrowthChart, AcquisitionChart } from "@/components/dashboard/Charts";
 
 const Index = () => {
-  const [boris, setBoris] = useState("overview");
+  const [itay, setItay] = useState("overview");
 
   return (
     <div className="flex min-h-screen bg-gray-50">
       {/* Sidebar */}
-      <div className="hidden md:flex w-64 flex-col bg-white border-r border-gray-200">
+      <div className="block md:flex w-64 flex-col bg-white border-r border-gray-200">
         <div className="p-4 border-b border-gray-200">
           <h2 className="text-xl font-bold text-gray-800">SaaS Dashboard</h2>
         </div>
